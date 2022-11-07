@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ODALID Extension Education: Référence du fichier source/Common/Hardware.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
+  <td id="projectalign">
+   <div id="projectname">ODALID Extension Education<span id="projectnumber">&#160;v0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.4 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',false,false,'search.php','Recherche');
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_f7fb87d3770fbf47bbe4a356fc71b9de.html">Common</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Structures de données</a> &#124;
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier Hardware.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_type_defs_8h_source.html">TypeDefs.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de Hardware.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="_hardware_8h__incl.png" border="0" usemap="#asource_2_common_2_hardware_8h" alt=""/></div>
+<map name="asource_2_common_2_hardware_8h" id="asource_2_common_2_hardware_8h">
+<area shape="rect" title=" " alt="" coords="5,5,192,32"/>
+<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="55,80,142,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
+<div class="dyncontent">
+<div class="center"><img src="_hardware_8h__dep__incl.png" border="0" usemap="#asource_2_common_2_hardware_8hdep" alt=""/></div>
+<map name="asource_2_common_2_hardware_8hdep" id="asource_2_common_2_hardware_8hdep">
+<area shape="rect" title=" " alt="" coords="584,5,771,32"/>
+<area shape="rect" href="_decode_8h.html" title=" " alt="" coords="195,87,371,114"/>
+<area shape="rect" href="_sw___auto_reader_8h.html" title=" " alt="" coords="776,80,971,121"/>
+<area shape="rect" href="_sw___device_8h.html" title=" " alt="" coords="5,80,171,121"/>
+<area shape="rect" href="_sw___i_s_o14443_a-3_8h.html" title=" " alt="" coords="395,80,579,121"/>
+<area shape="rect" href="_sw___mf___classic_8h.html" title=" " alt="" coords="1004,80,1180,121"/>
+<area shape="rect" href="_sw___mf___ultralight_8h.html" title=" " alt="" coords="1413,80,1605,121"/>
+<area shape="rect" href="_sw___poll_8h.html" title=" " alt="" coords="603,80,752,121"/>
+<area shape="rect" href="_decode_8c.html" title=" " alt="" coords="195,177,371,203"/>
+<area shape="rect" href="_sw___auto_reader_8c.html" title=" " alt="" coords="603,169,797,211"/>
+<area shape="rect" href="_sw___device_8c.html" title=" " alt="" coords="5,169,171,211"/>
+<area shape="rect" href="_sw___poll_8c.html" title=" " alt="" coords="821,169,971,211"/>
+<area shape="rect" href="_sw___i_s_o14443_a-3_8c.html" title=" " alt="" coords="395,169,579,211"/>
+<area shape="rect" href="_cmd___auto_reader_8c.html" title=" " alt="" coords="995,169,1189,211"/>
+<area shape="rect" href="_cmd___mf___classic_8c.html" title=" " alt="" coords="1214,169,1399,211"/>
+<area shape="rect" href="_sw___mf___classic_8c.html" title=" " alt="" coords="1424,169,1600,211"/>
+<area shape="rect" href="_sw___mf___ultralight_8c.html" title=" " alt="" coords="1624,169,1816,211"/>
+</map>
+</div>
+</div>
+<p><a href="_hardware_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Structures de données</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_reader_name.html">ReaderName</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Objet contenant les informations du Reader.  <a href="struct_reader_name.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a48be0d33847d6266741d9a8f34db3415"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#a48be0d33847d6266741d9a8f34db3415">ReaderTCP</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a48be0d33847d6266741d9a8f34db3415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402be734ca15b678264030407614819e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#a402be734ca15b678264030407614819e">ReaderCDC</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a402be734ca15b678264030407614819e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b015126f6998d9a977baafcf42dc627"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#a4b015126f6998d9a977baafcf42dc627">ReaderPCSC</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:a4b015126f6998d9a977baafcf42dc627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76644fd4893da5414a36a97a9c45733b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#a76644fd4893da5414a36a97a9c45733b">DataMem</a>&#160;&#160;&#160;512</td></tr>
+<tr class="separator:a76644fd4893da5414a36a97a9c45733b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2723c03d46829890de721bf78bc173e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#af2723c03d46829890de721bf78bc173e">MAX_WAIT_READ_TO_BIT</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:af2723c03d46829890de721bf78bc173e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d05c30f7505516a5730276a40d39a06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#a1d05c30f7505516a5730276a40d39a06">MAX_WAIT_READ</a>&#160;&#160;&#160;3000</td></tr>
+<tr class="separator:a1d05c30f7505516a5730276a40d39a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b51cbace5260e754a55e1542bb9eba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_hardware_8h.html#a83b51cbace5260e754a55e1542bb9eba">BlockingEnabled</a>&#160;&#160;&#160;FALSE</td></tr>
+<tr class="separator:a83b51cbace5260e754a55e1542bb9eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Type definition </p><dl class="section author"><dt>Auteur</dt><dd>Vincent T. </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>18 Novembre 2021 </dd></dl>
+</div><h2 class="groupheader">Documentation des macros</h2>
+<a id="a83b51cbace5260e754a55e1542bb9eba" name="a83b51cbace5260e754a55e1542bb9eba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b51cbace5260e754a55e1542bb9eba">&#9670;&nbsp;</a></span>BlockingEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BlockingEnabled&#160;&#160;&#160;FALSE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Utilisation des socket bloquante. </p>
+
+</div>
+</div>
+<a id="a76644fd4893da5414a36a97a9c45733b" name="a76644fd4893da5414a36a97a9c45733b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76644fd4893da5414a36a97a9c45733b">&#9670;&nbsp;</a></span>DataMem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DataMem&#160;&#160;&#160;512</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >???. </p>
+
+</div>
+</div>
+<a id="a1d05c30f7505516a5730276a40d39a06" name="a1d05c30f7505516a5730276a40d39a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d05c30f7505516a5730276a40d39a06">&#9670;&nbsp;</a></span>MAX_WAIT_READ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_WAIT_READ&#160;&#160;&#160;3000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >temps max d'attente pour lecture (en ms). </p>
+
+</div>
+</div>
+<a id="af2723c03d46829890de721bf78bc173e" name="af2723c03d46829890de721bf78bc173e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2723c03d46829890de721bf78bc173e">&#9670;&nbsp;</a></span>MAX_WAIT_READ_TO_BIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_WAIT_READ_TO_BIT&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >temps max d'attente pour lecture (en ms). </p>
+
+</div>
+</div>
+<a id="a402be734ca15b678264030407614819e" name="a402be734ca15b678264030407614819e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402be734ca15b678264030407614819e">&#9670;&nbsp;</a></span>ReaderCDC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ReaderCDC&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >???. </p>
+
+</div>
+</div>
+<a id="a4b015126f6998d9a977baafcf42dc627" name="a4b015126f6998d9a977baafcf42dc627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b015126f6998d9a977baafcf42dc627">&#9670;&nbsp;</a></span>ReaderPCSC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ReaderPCSC&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >???. </p>
+
+</div>
+</div>
+<a id="a48be0d33847d6266741d9a8f34db3415" name="a48be0d33847d6266741d9a8f34db3415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48be0d33847d6266741d9a8f34db3415">&#9670;&nbsp;</a></span>ReaderTCP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ReaderTCP&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >???. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

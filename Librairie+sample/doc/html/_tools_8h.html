@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ODALID Extension Education: Référence du fichier source/Common/Tools.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
+  <td id="projectalign">
+   <div id="projectname">ODALID Extension Education<span id="projectnumber">&#160;v0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.4 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',false,false,'search.php','Recherche');
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_f7fb87d3770fbf47bbe4a356fc71b9de.html">Common</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier Tools.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_type_defs_8h_source.html">TypeDefs.h</a>&quot;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de Tools.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="_tools_8h__incl.png" border="0" usemap="#asource_2_common_2_tools_8h" alt=""/></div>
+<map name="asource_2_common_2_tools_8h" id="asource_2_common_2_tools_8h">
+<area shape="rect" title=" " alt="" coords="18,5,181,32"/>
+<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="5,80,92,107"/>
+<area shape="rect" title=" " alt="" coords="116,80,184,107"/>
+</map>
+</div>
+</div>
+<p><a href="_tools_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad6fec1d7c581133d41f31ba8722500ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_tools_8h.html#ad6fec1d7c581133d41f31ba8722500ac">DELAYS_MS</a>(ms)&#160;&#160;&#160;usleep ((ms) * 1000)</td></tr>
+<tr class="separator:ad6fec1d7c581133d41f31ba8722500ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507009414b4ea0a70bb8cbac73336ac7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_tools_8h.html#a507009414b4ea0a70bb8cbac73336ac7">DELAYS_S</a>(sec)&#160;&#160;&#160;sleep ((sec))</td></tr>
+<tr class="separator:a507009414b4ea0a70bb8cbac73336ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Type definition </p><dl class="section author"><dt>Auteur</dt><dd>Vincent T. </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>18 Novembre 2021 </dd></dl>
+</div><h2 class="groupheader">Documentation des macros</h2>
+<a id="ad6fec1d7c581133d41f31ba8722500ac" name="ad6fec1d7c581133d41f31ba8722500ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6fec1d7c581133d41f31ba8722500ac">&#9670;&nbsp;</a></span>DELAYS_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAYS_MS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ms</td><td>)</td>
+          <td>&#160;&#160;&#160;usleep ((ms) * 1000)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Delais en milliseconde. </p>
+
+</div>
+</div>
+<a id="a507009414b4ea0a70bb8cbac73336ac7" name="a507009414b4ea0a70bb8cbac73336ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a507009414b4ea0a70bb8cbac73336ac7">&#9670;&nbsp;</a></span>DELAYS_S</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAYS_S</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sec</td><td>)</td>
+          <td>&#160;&#160;&#160;sleep ((sec))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Delais en seconde. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

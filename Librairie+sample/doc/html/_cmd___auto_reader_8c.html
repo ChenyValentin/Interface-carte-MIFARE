@@ -1,0 +1,976 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ODALID Extension Education: Référence du fichier source/Extension/AutoReader/Cmd_AutoReader.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
+  <td id="projectalign">
+   <div id="projectname">ODALID Extension Education<span id="projectnumber">&#160;v0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.4 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',false,false,'search.php','Recherche');
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_3f45b78a281ff7342088d1a157e24ab8.html">Extension</a></li><li class="navelem"><a class="el" href="dir_07cff5c315bbceda4c20609e3c758d38.html">AutoReader</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier Cmd_AutoReader.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_cmd___auto_reader_8h_source.html">Cmd_AutoReader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_sw___mf___classic_8h_source.html">Sw_Mf_Classic.h</a>&quot;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de Cmd_AutoReader.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="_cmd___auto_reader_8c__incl.png" border="0" usemap="#asource_2_extension_2_auto_reader_2_cmd___auto_reader_8c" alt=""/></div>
+<map name="asource_2_extension_2_auto_reader_2_cmd___auto_reader_8c" id="asource_2_extension_2_auto_reader_2_cmd___auto_reader_8c">
+<area shape="rect" title=" " alt="" coords="119,5,314,47"/>
+<area shape="rect" href="_cmd___auto_reader_8h.html" title=" " alt="" coords="5,169,140,196"/>
+<area shape="rect" href="_sw___mf___classic_8h.html" title=" " alt="" coords="155,95,278,121"/>
+<area shape="rect" title=" " alt="" coords="303,95,368,121"/>
+<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="173,244,260,271"/>
+<area shape="rect" href="_librairie_8h.html" title=" " alt="" coords="216,169,295,196"/>
+<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="319,169,405,196"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:af46b98755df88ce1e0a824dbbac74917"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#af46b98755df88ce1e0a824dbbac74917">Cmd_AutoReader_FindCard</a> (<a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> FindCard, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:af46b98755df88ce1e0a824dbbac74917"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#af46b98755df88ce1e0a824dbbac74917">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af46b98755df88ce1e0a824dbbac74917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3f520e69aea0c04a06538243f1c23a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a1a3f520e69aea0c04a06538243f1c23a">Cmd_AutoReader_SetRTC</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *Time, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a1a3f520e69aea0c04a06538243f1c23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a1a3f520e69aea0c04a06538243f1c23a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1a3f520e69aea0c04a06538243f1c23a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11aac7257e8f2682d37b79600b75f152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a11aac7257e8f2682d37b79600b75f152">Cmd_AutoReader_AddUser</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *User, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a11aac7257e8f2682d37b79600b75f152"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a11aac7257e8f2682d37b79600b75f152">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a11aac7257e8f2682d37b79600b75f152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab55783e05a195ca216467ed0589882ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#ab55783e05a195ca216467ed0589882ac">Cmd_AutoReader_DeleteUser</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *User, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:ab55783e05a195ca216467ed0589882ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#ab55783e05a195ca216467ed0589882ac">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab55783e05a195ca216467ed0589882ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e84f69871ac7a8bc950d5134f929a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a71e84f69871ac7a8bc950d5134f929a7">Cmd_AutoReader_ClearFullUser</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a71e84f69871ac7a8bc950d5134f929a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a71e84f69871ac7a8bc950d5134f929a7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a71e84f69871ac7a8bc950d5134f929a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6072f306f4db50004bd8c7bf307c7e83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a6072f306f4db50004bd8c7bf307c7e83">Cmd_AutoReader_AccessMifare</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a6072f306f4db50004bd8c7bf307c7e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a6072f306f4db50004bd8c7bf307c7e83">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6072f306f4db50004bd8c7bf307c7e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688073a913cf10bf9e4897b88ca3ea83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a688073a913cf10bf9e4897b88ca3ea83">Cmd_AutoReader_TempoGache</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Temps, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a688073a913cf10bf9e4897b88ca3ea83"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a688073a913cf10bf9e4897b88ca3ea83">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a688073a913cf10bf9e4897b88ca3ea83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4869f133bc5d198794b9926629021f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a4869f133bc5d198794b9926629021f7a">Cmd_AutoReader_BlackList</a> (<a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> BlackList, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a4869f133bc5d198794b9926629021f7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a4869f133bc5d198794b9926629021f7a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4869f133bc5d198794b9926629021f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04159d96cef948453070d349623ed380"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a04159d96cef948453070d349623ed380">Cmd_AutoReader_SendInfo</a> (<a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> SendInfo, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *IPServeur, <a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Port, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a04159d96cef948453070d349623ed380"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a04159d96cef948453070d349623ed380">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a04159d96cef948453070d349623ed380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181d36eee9df82bc0141bc23ed52166e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a181d36eee9df82bc0141bc23ed52166e">Cmd_AutoReader_ComptMifare</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Compt, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a181d36eee9df82bc0141bc23ed52166e"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a181d36eee9df82bc0141bc23ed52166e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a181d36eee9df82bc0141bc23ed52166e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917c976335f28d0edffc7a040198f439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a917c976335f28d0edffc7a040198f439">Cmd_AutoReader_AfficheValueMifare</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a917c976335f28d0edffc7a040198f439"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a917c976335f28d0edffc7a040198f439">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a917c976335f28d0edffc7a040198f439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1fc2dd44be685aa7de80c0606c988a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a8e1fc2dd44be685aa7de80c0606c988a">Cmd_AutoReader_LCD1</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> temp, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *<a class="el" href="_sw___device_8h.html#a531a68f7673ef476b58c1d09d04e3357">LCD</a>, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a8e1fc2dd44be685aa7de80c0606c988a"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a8e1fc2dd44be685aa7de80c0606c988a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8e1fc2dd44be685aa7de80c0606c988a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90478355552840760f8214d68bf1c3bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a90478355552840760f8214d68bf1c3bf">Cmd_AutoReader_LCD2A</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> temp, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *<a class="el" href="_sw___device_8h.html#a531a68f7673ef476b58c1d09d04e3357">LCD</a>, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a90478355552840760f8214d68bf1c3bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a90478355552840760f8214d68bf1c3bf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a90478355552840760f8214d68bf1c3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fdd732d7c51fb50d9e9c5ad20056dca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a8fdd732d7c51fb50d9e9c5ad20056dca">Cmd_AutoReader_LCD2B</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> temp, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *<a class="el" href="_sw___device_8h.html#a531a68f7673ef476b58c1d09d04e3357">LCD</a>, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a8fdd732d7c51fb50d9e9c5ad20056dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a8fdd732d7c51fb50d9e9c5ad20056dca">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8fdd732d7c51fb50d9e9c5ad20056dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562a67863737d16bcf464fdd3bde8aad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a562a67863737d16bcf464fdd3bde8aad">Cmd_AutoReader_LCD2C</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> temp, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *<a class="el" href="_sw___device_8h.html#a531a68f7673ef476b58c1d09d04e3357">LCD</a>, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a562a67863737d16bcf464fdd3bde8aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a562a67863737d16bcf464fdd3bde8aad">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a562a67863737d16bcf464fdd3bde8aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbc03c2a5faccda192c4a82a4384762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a3fbc03c2a5faccda192c4a82a4384762">Cmd_AutoReader_Download</a> (<a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> PremierDownload, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> NbreDownload, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> lgr_data, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a3fbc03c2a5faccda192c4a82a4384762"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a3fbc03c2a5faccda192c4a82a4384762">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3fbc03c2a5faccda192c4a82a4384762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad0cf45d5c44a7667f7019c564e60ea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#aad0cf45d5c44a7667f7019c564e60ea3">Cmd_AutoReader_ClearSave</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:aad0cf45d5c44a7667f7019c564e60ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#aad0cf45d5c44a7667f7019c564e60ea3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aad0cf45d5c44a7667f7019c564e60ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934a44c9b30e76ad16c6bcfbbcf9225e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a934a44c9b30e76ad16c6bcfbbcf9225e">Cmd_AutoReader_NbreSave</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> lgr_data, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a934a44c9b30e76ad16c6bcfbbcf9225e"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a934a44c9b30e76ad16c6bcfbbcf9225e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a934a44c9b30e76ad16c6bcfbbcf9225e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a063b5c27bebc65c49c673e49b6aee966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a063b5c27bebc65c49c673e49b6aee966">Cmd_AutoReader_GetInfo</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a063b5c27bebc65c49c673e49b6aee966"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a063b5c27bebc65c49c673e49b6aee966">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a063b5c27bebc65c49c673e49b6aee966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b7bf5f2bc5989a84dd4a314706c31a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_cmd___auto_reader_8c.html#a20b7bf5f2bc5989a84dd4a314706c31a">Cmd_AutoReader_Reset</a> (<a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pBuffer)</td></tr>
+<tr class="memdesc:a20b7bf5f2bc5989a84dd4a314706c31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_cmd___auto_reader_8c.html#a20b7bf5f2bc5989a84dd4a314706c31a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a20b7bf5f2bc5989a84dd4a314706c31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Commande AutoReader </p><dl class="section author"><dt>Auteur</dt><dd>Vincent T. </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>18 Novembre 2021 </dd></dl>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a6072f306f4db50004bd8c7bf307c7e83" name="a6072f306f4db50004bd8c7bf307c7e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6072f306f4db50004bd8c7bf307c7e83">&#9670;&nbsp;</a></span>Cmd_AutoReader_AccessMifare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_AccessMifare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>Block</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>AuthKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>KeyIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a11aac7257e8f2682d37b79600b75f152" name="a11aac7257e8f2682d37b79600b75f152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11aac7257e8f2682d37b79600b75f152">&#9670;&nbsp;</a></span>Cmd_AutoReader_AddUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_AddUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>User</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a917c976335f28d0edffc7a040198f439" name="a917c976335f28d0edffc7a040198f439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917c976335f28d0edffc7a040198f439">&#9670;&nbsp;</a></span>Cmd_AutoReader_AfficheValueMifare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_AfficheValueMifare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>Block</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>AuthKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>KeyIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4869f133bc5d198794b9926629021f7a" name="a4869f133bc5d198794b9926629021f7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4869f133bc5d198794b9926629021f7a">&#9670;&nbsp;</a></span>Cmd_AutoReader_BlackList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_BlackList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>BlackList</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a71e84f69871ac7a8bc950d5134f929a7" name="a71e84f69871ac7a8bc950d5134f929a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71e84f69871ac7a8bc950d5134f929a7">&#9670;&nbsp;</a></span>Cmd_AutoReader_ClearFullUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_ClearFullUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aad0cf45d5c44a7667f7019c564e60ea3" name="aad0cf45d5c44a7667f7019c564e60ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad0cf45d5c44a7667f7019c564e60ea3">&#9670;&nbsp;</a></span>Cmd_AutoReader_ClearSave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_ClearSave </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a181d36eee9df82bc0141bc23ed52166e" name="a181d36eee9df82bc0141bc23ed52166e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a181d36eee9df82bc0141bc23ed52166e">&#9670;&nbsp;</a></span>Cmd_AutoReader_ComptMifare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_ComptMifare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>Block</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>AuthKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>KeyIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>Compt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab55783e05a195ca216467ed0589882ac" name="ab55783e05a195ca216467ed0589882ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab55783e05a195ca216467ed0589882ac">&#9670;&nbsp;</a></span>Cmd_AutoReader_DeleteUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_DeleteUser </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>User</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3fbc03c2a5faccda192c4a82a4384762" name="a3fbc03c2a5faccda192c4a82a4384762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbc03c2a5faccda192c4a82a4384762">&#9670;&nbsp;</a></span>Cmd_AutoReader_Download()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_Download </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>PremierDownload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>NbreDownload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>lgr_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af46b98755df88ce1e0a824dbbac74917" name="af46b98755df88ce1e0a824dbbac74917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46b98755df88ce1e0a824dbbac74917">&#9670;&nbsp;</a></span>Cmd_AutoReader_FindCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_FindCard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>FindCard</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a063b5c27bebc65c49c673e49b6aee966" name="a063b5c27bebc65c49c673e49b6aee966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a063b5c27bebc65c49c673e49b6aee966">&#9670;&nbsp;</a></span>Cmd_AutoReader_GetInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_GetInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8e1fc2dd44be685aa7de80c0606c988a" name="a8e1fc2dd44be685aa7de80c0606c988a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1fc2dd44be685aa7de80c0606c988a">&#9670;&nbsp;</a></span>Cmd_AutoReader_LCD1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_LCD1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>temp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>LCD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_cmd___auto_reader_8c_a8e1fc2dd44be685aa7de80c0606c988a_cgraph.png" border="0" usemap="#a_cmd___auto_reader_8c_a8e1fc2dd44be685aa7de80c0606c988a_cgraph" alt=""/></div>
+<map name="a_cmd___auto_reader_8c_a8e1fc2dd44be685aa7de80c0606c988a_cgraph" id="a_cmd___auto_reader_8c_a8e1fc2dd44be685aa7de80c0606c988a_cgraph">
+<area shape="rect" title="???" alt="" coords="5,5,168,32"/>
+<area shape="rect" href="_sw___device_8c.html#a73b88dd8b00670c1a42823fe53940adf" title="Fonction permettant de generer le CRC A." alt="" coords="216,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a90478355552840760f8214d68bf1c3bf" name="a90478355552840760f8214d68bf1c3bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90478355552840760f8214d68bf1c3bf">&#9670;&nbsp;</a></span>Cmd_AutoReader_LCD2A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_LCD2A </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>temp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>LCD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_cmd___auto_reader_8c_a90478355552840760f8214d68bf1c3bf_cgraph.png" border="0" usemap="#a_cmd___auto_reader_8c_a90478355552840760f8214d68bf1c3bf_cgraph" alt=""/></div>
+<map name="a_cmd___auto_reader_8c_a90478355552840760f8214d68bf1c3bf_cgraph" id="a_cmd___auto_reader_8c_a90478355552840760f8214d68bf1c3bf_cgraph">
+<area shape="rect" title="???" alt="" coords="5,5,177,32"/>
+<area shape="rect" href="_sw___device_8c.html#a73b88dd8b00670c1a42823fe53940adf" title="Fonction permettant de generer le CRC A." alt="" coords="225,5,272,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8fdd732d7c51fb50d9e9c5ad20056dca" name="a8fdd732d7c51fb50d9e9c5ad20056dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fdd732d7c51fb50d9e9c5ad20056dca">&#9670;&nbsp;</a></span>Cmd_AutoReader_LCD2B()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_LCD2B </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>temp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>LCD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_cmd___auto_reader_8c_a8fdd732d7c51fb50d9e9c5ad20056dca_cgraph.png" border="0" usemap="#a_cmd___auto_reader_8c_a8fdd732d7c51fb50d9e9c5ad20056dca_cgraph" alt=""/></div>
+<map name="a_cmd___auto_reader_8c_a8fdd732d7c51fb50d9e9c5ad20056dca_cgraph" id="a_cmd___auto_reader_8c_a8fdd732d7c51fb50d9e9c5ad20056dca_cgraph">
+<area shape="rect" title="???" alt="" coords="5,5,177,32"/>
+<area shape="rect" href="_sw___device_8c.html#a73b88dd8b00670c1a42823fe53940adf" title="Fonction permettant de generer le CRC A." alt="" coords="225,5,272,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a562a67863737d16bcf464fdd3bde8aad" name="a562a67863737d16bcf464fdd3bde8aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562a67863737d16bcf464fdd3bde8aad">&#9670;&nbsp;</a></span>Cmd_AutoReader_LCD2C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_LCD2C </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>temp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>LCD</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_cmd___auto_reader_8c_a562a67863737d16bcf464fdd3bde8aad_cgraph.png" border="0" usemap="#a_cmd___auto_reader_8c_a562a67863737d16bcf464fdd3bde8aad_cgraph" alt=""/></div>
+<map name="a_cmd___auto_reader_8c_a562a67863737d16bcf464fdd3bde8aad_cgraph" id="a_cmd___auto_reader_8c_a562a67863737d16bcf464fdd3bde8aad_cgraph">
+<area shape="rect" title="???" alt="" coords="5,5,177,32"/>
+<area shape="rect" href="_sw___device_8c.html#a73b88dd8b00670c1a42823fe53940adf" title="Fonction permettant de generer le CRC A." alt="" coords="225,5,272,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a934a44c9b30e76ad16c6bcfbbcf9225e" name="a934a44c9b30e76ad16c6bcfbbcf9225e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a934a44c9b30e76ad16c6bcfbbcf9225e">&#9670;&nbsp;</a></span>Cmd_AutoReader_NbreSave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_NbreSave </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>lgr_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a20b7bf5f2bc5989a84dd4a314706c31a" name="a20b7bf5f2bc5989a84dd4a314706c31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20b7bf5f2bc5989a84dd4a314706c31a">&#9670;&nbsp;</a></span>Cmd_AutoReader_Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_Reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a04159d96cef948453070d349623ed380" name="a04159d96cef948453070d349623ed380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04159d96cef948453070d349623ed380">&#9670;&nbsp;</a></span>Cmd_AutoReader_SendInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_SendInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a>&#160;</td>
+          <td class="paramname"><em>SendInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>IPServeur</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>Port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1a3f520e69aea0c04a06538243f1c23a" name="a1a3f520e69aea0c04a06538243f1c23a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3f520e69aea0c04a06538243f1c23a">&#9670;&nbsp;</a></span>Cmd_AutoReader_SetRTC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_SetRTC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>Time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a688073a913cf10bf9e4897b88ca3ea83" name="a688073a913cf10bf9e4897b88ca3ea83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688073a913cf10bf9e4897b88ca3ea83">&#9670;&nbsp;</a></span>Cmd_AutoReader_TempoGache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> Cmd_AutoReader_TempoGache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>Temps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>??? </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
+<dl class="retval"><dt>Valeurs retournées</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname"><a class="el" href="_mf_err_no_8h.html#aa90197f05d6e6c3e3d2680089a4c05d8">MI_OK</a></td><td>Operation successful ou erreur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

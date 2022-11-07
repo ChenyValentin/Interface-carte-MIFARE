@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ODALID Extension Education:  Fichier source de source/Common/Hardware.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
+  <td id="projectalign">
+   <div id="projectname">ODALID Extension Education<span id="projectnumber">&#160;v0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.4 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',false,false,'search.php','Recherche');
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_f7fb87d3770fbf47bbe4a356fc71b9de.html">Common</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Hardware.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_hardware_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* Copyright (c) 2009-2021 ODALID - https://odalid.com</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef HARDWARE_H</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define HARDWARE_H</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="_type_defs_8h.html">TypeDefs.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="_hardware_8h.html#a48be0d33847d6266741d9a8f34db3415">   20</a></span><span class="preprocessor">#define ReaderTCP               1                            </span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="_hardware_8h.html#a402be734ca15b678264030407614819e">   21</a></span><span class="preprocessor">#define ReaderCDC               2                            </span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="_hardware_8h.html#a4b015126f6998d9a977baafcf42dc627">   22</a></span><span class="preprocessor">#define ReaderPCSC              3                            </span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="_hardware_8h.html#a76644fd4893da5414a36a97a9c45733b">   24</a></span><span class="preprocessor">#define DataMem                 512                         </span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="_hardware_8h.html#af2723c03d46829890de721bf78bc173e">   26</a></span><span class="preprocessor">#define MAX_WAIT_READ_TO_BIT    1                           </span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="_hardware_8h.html#a1d05c30f7505516a5730276a40d39a06">   27</a></span><span class="preprocessor">#define MAX_WAIT_READ           3000                        </span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="_hardware_8h.html#a83b51cbace5260e754a55e1542bb9eba">   29</a></span><span class="preprocessor">#define BlockingEnabled         FALSE                       </span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="struct_reader_name.html">   37</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="struct_reader_name.html#aeff746a68ed515a1d9f0c40a38dd200b">   38</a></span>    <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code hl_variable" href="struct_reader_name.html#aeff746a68ed515a1d9f0c40a38dd200b">Type</a>;           </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="struct_reader_name.html#a2376f17d1e7367401184b2a3978bcd3a">   39</a></span>    <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code hl_variable" href="struct_reader_name.html#a2376f17d1e7367401184b2a3978bcd3a">device</a>;         </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="struct_reader_name.html#a24362ae702baa403025803d02aceb47a">   40</a></span>    <span class="keywordtype">char</span> IPReader[16];      </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="struct_reader_name.html#acd3f33bcffa3415a0b8a58706fcc0dcd">   41</a></span>    SOCKET <a class="code hl_variable" href="struct_reader_name.html#acd3f33bcffa3415a0b8a58706fcc0dcd">hSocket</a>;         </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="struct_reader_name.html#a495277a04359ac7c34090c93b7ebb928">   42</a></span>    HANDLE <a class="code hl_variable" href="struct_reader_name.html#a495277a04359ac7c34090c93b7ebb928">g_hCOM</a>;          </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="struct_reader_name.html#ad3989e824983c719481ceed5a991fdd3">   43</a></span>    <span class="keywordtype">char</span> version[40];       </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="struct_reader_name.html#a7713b82f71b199d461dca3796410d1cf">   44</a></span>    <a class="code hl_typedef" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> serial[11];     </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="struct_reader_name.html#a1e0e5541fa2a95dc1a1865c9c27790d2">   45</a></span>    <span class="keywordtype">char</span> stack[30];         </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><a class="code hl_struct" href="struct_reader_name.html">ReaderName</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif </span><span class="comment">/*HARDWARE_H*/</span><span class="preprocessor"></span></div>
+<div class="ttc" id="a_type_defs_8h_html"><div class="ttname"><a href="_type_defs_8h.html">TypeDefs.h</a></div></div>
+<div class="ttc" id="agroup___type_html_gaba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdoc">BOOL.</div><div class="ttdef"><b>Definition:</b> TypeDefs.h:37</div></div>
+<div class="ttc" id="astruct_reader_name_html"><div class="ttname"><a href="struct_reader_name.html">ReaderName</a></div><div class="ttdoc">Objet contenant les informations du Reader.</div><div class="ttdef"><b>Definition:</b> Hardware.h:37</div></div>
+<div class="ttc" id="astruct_reader_name_html_a2376f17d1e7367401184b2a3978bcd3a"><div class="ttname"><a href="struct_reader_name.html#a2376f17d1e7367401184b2a3978bcd3a">ReaderName::device</a></div><div class="ttdeci">uint8_t device</div><div class="ttdef"><b>Definition:</b> Hardware.h:39</div></div>
+<div class="ttc" id="astruct_reader_name_html_a495277a04359ac7c34090c93b7ebb928"><div class="ttname"><a href="struct_reader_name.html#a495277a04359ac7c34090c93b7ebb928">ReaderName::g_hCOM</a></div><div class="ttdeci">HANDLE g_hCOM</div><div class="ttdef"><b>Definition:</b> Hardware.h:42</div></div>
+<div class="ttc" id="astruct_reader_name_html_acd3f33bcffa3415a0b8a58706fcc0dcd"><div class="ttname"><a href="struct_reader_name.html#acd3f33bcffa3415a0b8a58706fcc0dcd">ReaderName::hSocket</a></div><div class="ttdeci">SOCKET hSocket</div><div class="ttdef"><b>Definition:</b> Hardware.h:41</div></div>
+<div class="ttc" id="astruct_reader_name_html_aeff746a68ed515a1d9f0c40a38dd200b"><div class="ttname"><a href="struct_reader_name.html#aeff746a68ed515a1d9f0c40a38dd200b">ReaderName::Type</a></div><div class="ttdeci">uint8_t Type</div><div class="ttdef"><b>Definition:</b> Hardware.h:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>
