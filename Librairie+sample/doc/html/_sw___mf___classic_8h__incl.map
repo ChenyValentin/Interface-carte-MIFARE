@@ -1,6 +1,6 @@
 <map id="source/Extension/Mf_Classic/Sw_Mf_Classic.h" name="source/Extension/Mf_Classic/Sw_Mf_Classic.h">
-<area shape="rect" id="node1" title=" " alt="" coords="34,5,210,47"/>
-<area shape="rect" id="node2" href="$_librairie_8h.html" title=" " alt="" coords="5,95,84,121"/>
-<area shape="rect" id="node3" href="$_type_defs_8h.html" title=" " alt="" coords="79,169,165,196"/>
-<area shape="rect" id="node4" href="$_hardware_8h.html" title=" " alt="" coords="160,95,247,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="34,5,210,45"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,93,84,119"/>
+<area shape="rect" id="node3" href="$_type_defs_8h.html" title=" " alt="" coords="119,167,205,192"/>
+<area shape="rect" id="node4" href="$_hardware_8h.html" title=" " alt="" coords="160,93,247,119"/>
 </map>

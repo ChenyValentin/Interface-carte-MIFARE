@@ -5,7 +5,7 @@
 */
 
 /** \file
-* Commande MfErrNo
+* Code d'erreur MfErrNo
 * \author Vincent T.
 * \version 0.1
 * \date 18 Novembre 2021
@@ -93,8 +93,8 @@ extern "C" {
 
 #define  I1_COMM_ABORT                  (-82)                   /**< ???. */
 
-#define MI_BREAK                        (-99)                            /**< ???. */
-#define MI_NY_IMPLEMENTED               (-100)                            /**< ???. */
+#define MI_BREAK                        (-99)                   /**< ???. */
+#define MI_NY_IMPLEMENTED               (-100)                 /**< ???. */
 #define MI_NO_MFRC                      (-101)                            /**< ???. */
 #define MI_MFRC_NOTAUTH                 (-102)                            /**< ???. */
 #define MI_WRONG_DES_MODE               (-103)                            /**< ???. */

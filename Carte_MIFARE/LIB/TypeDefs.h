@@ -23,64 +23,64 @@
 * @{
 */
 
-///** \brief
-//*	BOOL
-//*/
-///*@{*/
+/** \brief
+*	BOOL
+*/
+/*@{*/
 //typedef unsigned int           BOOL;
-///*@}*/
+/*@}*/
 
 /** \brief 
-*	8 bit non signÃ©
+*	8 bit non signe
 */
 /*@{*/
 typedef unsigned char           uint8_t;
 /*@}*/
 
 /** \brief 
-*	16 bit non signÃ©
+*	16 bit non signe
 */
 /*@{*/
 typedef unsigned short          uint16_t;
 /*@}*/
 
 /** \brief
-*	32 bit non signÃ©
+*	32 bit non signe
 */
 /*@{*/
 typedef unsigned long int       uint32_t;
 /*@}*/
 
 /** \brief
-*	64 bit non signÃ©
+*	64 bit non signe
 */
 /*@{*/
 typedef unsigned long long int  uint64_t;
 /*@}*/
 
 /** \brief
-*	8 bit signÃ©
+*	8 bit signe
 */
 /*@{*/
 typedef signed char             int8_t;
 /*@}*/
 
 /** \brief
-*	16 bit signÃ©
+*	16 bit signe
 */
 /*@{*/
 typedef short                   int16_t;
 /*@}*/
 
 /** \brief
-*	32 bit signÃ©
+*	32 bit signe
 */
 /*@{*/
 typedef long int                int32_t;
 /*@}*/
 
 /** \brief
-*	64 bit signÃ©
+*	64 bit signe
 */
 /*@{*/
 typedef long long int           int64_t;

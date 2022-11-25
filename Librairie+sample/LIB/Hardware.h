@@ -17,31 +17,32 @@
 
 #include "TypeDefs.h"
 
-#define ReaderTCP               1                            /**< ???. */
-#define ReaderCDC               2                            /**< ???. */
-#define ReaderPCSC              3                            /**< ???. */
+#define ReaderTCP               1                            /**< Parametre pour utiliser un lecteur TCP/IP. */
+#define ReaderCDC               2                            /**< Parametre pour utiliser un lecteur USB. */
+#define ReaderPCSC              3                            /**< Parametre pour utiliser un lecteur PC/SC. */
 
-#define DataMem                 512                         /**< ???. */
+#define DataMem                 512                         /**< Taille memoire. */
 
 #define MAX_WAIT_READ_TO_BIT    1                           /**< temps max d'attente pour lecture (en ms). */
 #define MAX_WAIT_READ           3000                        /**< temps max d'attente pour lecture (en ms). */
 
-#define BlockingEnabled         FALSE                       /**< ???. */
+#define BlockingEnabled         FALSE                       /**< Utilisation des sockets bloquantes. */
 
 
 /**
- * \struct ReaderName
- * \brief Objet contenant les informations du Reader
- *
- */
+* \struct ReaderName
+* \brief Objet contenant les informations du Reader
+*
+*/
+
 typedef struct {
-    uint8_t Type;			/*!< Type de pÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©riphÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©rique */
-    uint8_t device;			/*!< Port COM du pÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©riphÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©rique */
-    char IPReader[16];		/*!< Adresse IP du pÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©riphÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©rique */
+    uint8_t Type;			/*!< Type de peripherique */
+    uint8_t device;			/*!< Port COM du peripherique */
+    char IPReader[16];		/*!< Adresse IP du peripherique */
     SOCKET hSocket;         /*!< Information sur la socket */
     HANDLE g_hCOM;          /*!< Information sur le port COM */
     char version[40];       /*!< Version */
-    uint8_t serial[11];     /*!< Numero de sÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©rie */
+    uint8_t serial[11];     /*!< Numero de serie */
     char stack[30];         /*!< Pile logiciel */
 }
 ReaderName;

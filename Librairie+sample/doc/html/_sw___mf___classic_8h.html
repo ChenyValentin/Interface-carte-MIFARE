@@ -1,14 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ODALID Extension Education: Référence du fichier source/Extension/Mf_Classic/Sw_Mf_Classic.h</title>
+<title>ODALID Education Carte MIFARE: Référence du fichier source/Extension/Mf_Classic/Sw_Mf_Classic.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -19,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
   <td id="projectalign">
-   <div id="projectname">ODALID Extension Education<span id="projectnumber">&#160;v0.2</span>
+   <div id="projectname">ODALID Education Carte MIFARE<span id="projectnumber">&#160;v0.4</span>
    </div>
   </td>
  </tr>
@@ -27,22 +34,61 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Généré par Doxygen 1.9.4 -->
+<!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',false,false,'search.php','Recherche');
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
 });
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_3f45b78a281ff7342088d1a157e24ab8.html">Extension</a></li><li class="navelem"><a class="el" href="dir_12c870651b2a4d1981c209dec21d4b5a.html">Mf_Classic</a></li>  </ul>
-</div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_sw___mf___classic_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
@@ -50,7 +96,7 @@ $(function() {
   <div class="headertitle"><div class="title">Référence du fichier Sw_Mf_Classic.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="_librairie_8h_source.html">Librairie.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;Librairie.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="_type_defs_8h_source.html">TypeDefs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_hardware_8h_source.html">Hardware.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -58,24 +104,10 @@ Graphe des dépendances par inclusion de Sw_Mf_Classic.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_sw___mf___classic_8h__incl.png" border="0" usemap="#asource_2_extension_2_mf___classic_2_sw___mf___classic_8h" alt=""/></div>
 <map name="asource_2_extension_2_mf___classic_2_sw___mf___classic_8h" id="asource_2_extension_2_mf___classic_2_sw___mf___classic_8h">
-<area shape="rect" title=" " alt="" coords="34,5,210,47"/>
-<area shape="rect" href="_librairie_8h.html" title=" " alt="" coords="5,95,84,121"/>
-<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="79,169,165,196"/>
-<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="160,95,247,121"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
-<div class="dyncontent">
-<div class="center"><img src="_sw___mf___classic_8h__dep__incl.png" border="0" usemap="#asource_2_extension_2_mf___classic_2_sw___mf___classic_8hdep" alt=""/></div>
-<map name="asource_2_extension_2_mf___classic_2_sw___mf___classic_8hdep" id="asource_2_extension_2_mf___classic_2_sw___mf___classic_8hdep">
-<area shape="rect" title=" " alt="" coords="551,5,727,47"/>
-<area shape="rect" href="_cmd___auto_reader_8c.html" title=" " alt="" coords="5,95,200,136"/>
-<area shape="rect" href="_sw___auto_reader_8c.html" title=" " alt="" coords="224,95,419,136"/>
-<area shape="rect" href="_cmd___mf___classic_8c.html" title=" " alt="" coords="443,95,629,136"/>
-<area shape="rect" href="_sw___mf___classic_8c.html" title=" " alt="" coords="653,95,829,136"/>
-<area shape="rect" href="_sw___mf___ultralight_8c.html" title=" " alt="" coords="853,95,1045,136"/>
-<area shape="rect" href="_sw___poll_8c.html" title=" " alt="" coords="1069,95,1219,136"/>
+<area shape="rect" title=" " alt="" coords="34,5,210,45"/>
+<area shape="rect" title=" " alt="" coords="5,93,84,119"/>
+<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="119,167,205,192"/>
+<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="160,93,247,119"/>
 </map>
 </div>
 </div>
@@ -100,46 +132,46 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a73f7ad46298b7c424c0e6f4c7a261068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a73f7ad46298b7c424c0e6f4c7a261068">Mf_Classic_LoadKey</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a73f7ad46298b7c424c0e6f4c7a261068"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a73f7ad46298b7c424c0e6f4c7a261068">Mf_Classic_LoadKey</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a73f7ad46298b7c424c0e6f4c7a261068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <a href="_sw___mf___classic_8h.html#a73f7ad46298b7c424c0e6f4c7a261068">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a73f7ad46298b7c424c0e6f4c7a261068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55917178d444d1f7f6e0172d0df4803"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ac55917178d444d1f7f6e0172d0df4803">Mf_Classic_LoadKey2</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKeyA, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKeyB, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:ac55917178d444d1f7f6e0172d0df4803"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ac55917178d444d1f7f6e0172d0df4803">Mf_Classic_LoadKey2</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKeyA, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKeyB, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:ac55917178d444d1f7f6e0172d0df4803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <a href="_sw___mf___classic_8h.html#ac55917178d444d1f7f6e0172d0df4803">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ac55917178d444d1f7f6e0172d0df4803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbe71133a29caf62bdce3f03e189cd0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#adbe71133a29caf62bdce3f03e189cd0e">Mf_Classic_PersonalizeUID</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Type)</td></tr>
+<tr class="memitem:adbe71133a29caf62bdce3f03e189cd0e"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#adbe71133a29caf62bdce3f03e189cd0e">Mf_Classic_PersonalizeUID</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Type)</td></tr>
 <tr class="memdesc:adbe71133a29caf62bdce3f03e189cd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chargement des clés MIFARE dans l’EEPROM du lecteur.  <a href="_sw___mf___classic_8h.html#adbe71133a29caf62bdce3f03e189cd0e">Plus de détails...</a><br /></td></tr>
 <tr class="separator:adbe71133a29caf62bdce3f03e189cd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c41c6cd907e21efe6f996e83810c9d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a3c41c6cd907e21efe6f996e83810c9d2">Mf_Classic_Authenticate</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> internal_Key, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a3c41c6cd907e21efe6f996e83810c9d2"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a3c41c6cd907e21efe6f996e83810c9d2">Mf_Classic_Authenticate</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> internal_Key, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a3c41c6cd907e21efe6f996e83810c9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase d'Authentification pour la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#a3c41c6cd907e21efe6f996e83810c9d2">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a3c41c6cd907e21efe6f996e83810c9d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2c486b939d2cd97ef53f121279a4364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ae2c486b939d2cd97ef53f121279a4364">Mf_Classic_Read_Block</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:ae2c486b939d2cd97ef53f121279a4364"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ae2c486b939d2cd97ef53f121279a4364">Mf_Classic_Read_Block</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:ae2c486b939d2cd97ef53f121279a4364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lecture d’un Block de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#ae2c486b939d2cd97ef53f121279a4364">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ae2c486b939d2cd97ef53f121279a4364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370d9020a75874ebacbda9635c72209a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a370d9020a75874ebacbda9635c72209a">Mf_Classic_Write_Block</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a370d9020a75874ebacbda9635c72209a"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a370d9020a75874ebacbda9635c72209a">Mf_Classic_Write_Block</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a370d9020a75874ebacbda9635c72209a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Écriture d’un Block de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#a370d9020a75874ebacbda9635c72209a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a370d9020a75874ebacbda9635c72209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ac525120085e8dfd9f5ae41ff79b2ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a2ac525120085e8dfd9f5ae41ff79b2ec">Mf_Classic_Read_Sector</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a2ac525120085e8dfd9f5ae41ff79b2ec"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a2ac525120085e8dfd9f5ae41ff79b2ec">Mf_Classic_Read_Sector</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a2ac525120085e8dfd9f5ae41ff79b2ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lecture d’un Secteur de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#a2ac525120085e8dfd9f5ae41ff79b2ec">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a2ac525120085e8dfd9f5ae41ff79b2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d87f6c953f23f583f7c40c69bd2b32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ad4d87f6c953f23f583f7c40c69bd2b32">Mf_Classic_Write_Sector</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:ad4d87f6c953f23f583f7c40c69bd2b32"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ad4d87f6c953f23f583f7c40c69bd2b32">Mf_Classic_Write_Sector</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pData, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:ad4d87f6c953f23f583f7c40c69bd2b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ecriture d’un Secteur de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#ad4d87f6c953f23f583f7c40c69bd2b32">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ad4d87f6c953f23f583f7c40c69bd2b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e7f476afca5b677d4e330df2bc0c76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ab2e7f476afca5b677d4e330df2bc0c76">Mf_Classic_UpdadeAccessBlock</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> OldKeyIndex, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pNewKeyA, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pNewKeyB, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc0, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc1, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc2, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc3, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey)</td></tr>
+<tr class="memitem:ab2e7f476afca5b677d4e330df2bc0c76"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ab2e7f476afca5b677d4e330df2bc0c76">Mf_Classic_UpdadeAccessBlock</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Sector, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> OldKeyIndex, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pNewKeyA, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *pNewKeyB, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc0, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc1, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc2, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Bc3, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey)</td></tr>
 <tr class="memdesc:ab2e7f476afca5b677d4e330df2bc0c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mise à jour des conditions d'accès et des clés de sécurité  <a href="_sw___mf___classic_8h.html#ab2e7f476afca5b677d4e330df2bc0c76">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab2e7f476afca5b677d4e330df2bc0c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dc2eed175b2898aab3c2a23f9f91a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a5dc2eed175b2898aab3c2a23f9f91a69">Mf_Classic_Read_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> *pValue, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a5dc2eed175b2898aab3c2a23f9f91a69"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a5dc2eed175b2898aab3c2a23f9f91a69">Mf_Classic_Read_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> *pValue, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a5dc2eed175b2898aab3c2a23f9f91a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lecture de la Value contenue dans le Block de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#a5dc2eed175b2898aab3c2a23f9f91a69">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a5dc2eed175b2898aab3c2a23f9f91a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d9b6753cad40b1d641a948971914f10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a0d9b6753cad40b1d641a948971914f10">Mf_Classic_Write_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a0d9b6753cad40b1d641a948971914f10"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a0d9b6753cad40b1d641a948971914f10">Mf_Classic_Write_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a0d9b6753cad40b1d641a948971914f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Écriture d'une Value dans un Block de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#a0d9b6753cad40b1d641a948971914f10">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a0d9b6753cad40b1d641a948971914f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9407399e5d7b50f8ad12c5ca800a6d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ad9407399e5d7b50f8ad12c5ca800a6d0">Mf_Classic_Increment_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> trans_Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:ad9407399e5d7b50f8ad12c5ca800a6d0"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#ad9407399e5d7b50f8ad12c5ca800a6d0">Mf_Classic_Increment_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> trans_Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:ad9407399e5d7b50f8ad12c5ca800a6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incrément de la Value du Block de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#ad9407399e5d7b50f8ad12c5ca800a6d0">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ad9407399e5d7b50f8ad12c5ca800a6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91d10b6715e1b9e590be18bf2386c8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a91d10b6715e1b9e590be18bf2386c8fe">Mf_Classic_Decrement_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> trans_Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:a91d10b6715e1b9e590be18bf2386c8fe"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#a91d10b6715e1b9e590be18bf2386c8fe">Mf_Classic_Decrement_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#ga33594304e786b158f3fb30289278f5af">uint32_t</a> Value, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> trans_Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:a91d10b6715e1b9e590be18bf2386c8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Décrémentation du Block de la carte MIFARE Classic.  <a href="_sw___mf___classic_8h.html#a91d10b6715e1b9e590be18bf2386c8fe">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a91d10b6715e1b9e590be18bf2386c8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6bdf82067a1a7288cd43bf24b5e072b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#af6bdf82067a1a7288cd43bf24b5e072b">Mf_Classic_Restore_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> trans_Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
+<tr class="memitem:af6bdf82067a1a7288cd43bf24b5e072b"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___mf___classic_8h.html#af6bdf82067a1a7288cd43bf24b5e072b">Mf_Classic_Restore_Value</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> Auth, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> Block, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> trans_Block, <a class="el" href="_type_defs_8h.html#ad2f8ed01c1733d4eab0932d970abaa4c">BOOL</a> AuthKey, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> KeyIndex)</td></tr>
 <tr class="memdesc:af6bdf82067a1a7288cd43bf24b5e072b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restauration de la Value.  <a href="_sw___mf___classic_8h.html#af6bdf82067a1a7288cd43bf24b5e072b">Plus de détails...</a><br /></td></tr>
 <tr class="separator:af6bdf82067a1a7288cd43bf24b5e072b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,7 +181,7 @@ Fonctions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>18 Novembre 2021 </dd></dl>
 </div><h2 class="groupheader">Documentation des macros</h2>
 <a id="ae68729036643ac6e4879abe69986d86c" name="ae68729036643ac6e4879abe69986d86c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae68729036643ac6e4879abe69986d86c">&#9670;&nbsp;</a></span>ACC_AUTH_NORMAL</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68729036643ac6e4879abe69986d86c">&#9670;&#160;</a></span>ACC_AUTH_NORMAL</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,7 +196,7 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a4a1d90b578d325a8881762fd474a8226" name="a4a1d90b578d325a8881762fd474a8226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a1d90b578d325a8881762fd474a8226">&#9670;&nbsp;</a></span>ACC_AUTH_TRANSPORT</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a1d90b578d325a8881762fd474a8226">&#9670;&#160;</a></span>ACC_AUTH_TRANSPORT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +211,7 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a0353b2ab14b23c7b61d8a1b3f971d6e2" name="a0353b2ab14b23c7b61d8a1b3f971d6e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0353b2ab14b23c7b61d8a1b3f971d6e2">&#9670;&nbsp;</a></span>ACC_BLOCK_READWRITE</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0353b2ab14b23c7b61d8a1b3f971d6e2">&#9670;&#160;</a></span>ACC_BLOCK_READWRITE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +226,7 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a400094b3a5aff40e7c0b87f980570b78" name="a400094b3a5aff40e7c0b87f980570b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a400094b3a5aff40e7c0b87f980570b78">&#9670;&nbsp;</a></span>ACC_BLOCK_TRANSPORT</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a400094b3a5aff40e7c0b87f980570b78">&#9670;&#160;</a></span>ACC_BLOCK_TRANSPORT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +241,7 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="aa9b29150f42225ec0a8bdfe39ec3431e" name="aa9b29150f42225ec0a8bdfe39ec3431e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9b29150f42225ec0a8bdfe39ec3431e">&#9670;&nbsp;</a></span>ACC_BLOCK_VALUE</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b29150f42225ec0a8bdfe39ec3431e">&#9670;&#160;</a></span>ACC_BLOCK_VALUE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +256,7 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ae83637bed87e695525d01a2977c0eebd" name="ae83637bed87e695525d01a2977c0eebd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae83637bed87e695525d01a2977c0eebd">&#9670;&nbsp;</a></span>AuthKeyA</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae83637bed87e695525d01a2977c0eebd">&#9670;&#160;</a></span>AuthKeyA</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +271,7 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a2a61f7b119ec26b10fe8fdf49814b320" name="a2a61f7b119ec26b10fe8fdf49814b320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a61f7b119ec26b10fe8fdf49814b320">&#9670;&nbsp;</a></span>AuthKeyB</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a61f7b119ec26b10fe8fdf49814b320">&#9670;&#160;</a></span>AuthKeyB</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,13 +287,13 @@ Fonctions</h2></td></tr>
 </div>
 <h2 class="groupheader">Documentation des fonctions</h2>
 <a id="a3c41c6cd907e21efe6f996e83810c9d2" name="a3c41c6cd907e21efe6f996e83810c9d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c41c6cd907e21efe6f996e83810c9d2">&#9670;&nbsp;</a></span>Mf_Classic_Authenticate()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c41c6cd907e21efe6f996e83810c9d2">&#9670;&#160;</a></span>Mf_Classic_Authenticate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Authenticate </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Authenticate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -327,13 +359,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a91d10b6715e1b9e590be18bf2386c8fe" name="a91d10b6715e1b9e590be18bf2386c8fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91d10b6715e1b9e590be18bf2386c8fe">&#9670;&nbsp;</a></span>Mf_Classic_Decrement_Value()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91d10b6715e1b9e590be18bf2386c8fe">&#9670;&#160;</a></span>Mf_Classic_Decrement_Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Decrement_Value </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Decrement_Value </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -406,13 +438,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ad9407399e5d7b50f8ad12c5ca800a6d0" name="ad9407399e5d7b50f8ad12c5ca800a6d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9407399e5d7b50f8ad12c5ca800a6d0">&#9670;&nbsp;</a></span>Mf_Classic_Increment_Value()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9407399e5d7b50f8ad12c5ca800a6d0">&#9670;&#160;</a></span>Mf_Classic_Increment_Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Increment_Value </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Increment_Value </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -485,13 +517,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a73f7ad46298b7c424c0e6f4c7a261068" name="a73f7ad46298b7c424c0e6f4c7a261068"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73f7ad46298b7c424c0e6f4c7a261068">&#9670;&nbsp;</a></span>Mf_Classic_LoadKey()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f7ad46298b7c424c0e6f4c7a261068">&#9670;&#160;</a></span>Mf_Classic_LoadKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_LoadKey </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_LoadKey </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -543,13 +575,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ac55917178d444d1f7f6e0172d0df4803" name="ac55917178d444d1f7f6e0172d0df4803"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac55917178d444d1f7f6e0172d0df4803">&#9670;&nbsp;</a></span>Mf_Classic_LoadKey2()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55917178d444d1f7f6e0172d0df4803">&#9670;&#160;</a></span>Mf_Classic_LoadKey2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_LoadKey2 </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_LoadKey2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -601,13 +633,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="adbe71133a29caf62bdce3f03e189cd0e" name="adbe71133a29caf62bdce3f03e189cd0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbe71133a29caf62bdce3f03e189cd0e">&#9670;&nbsp;</a></span>Mf_Classic_PersonalizeUID()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adbe71133a29caf62bdce3f03e189cd0e">&#9670;&#160;</a></span>Mf_Classic_PersonalizeUID()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_PersonalizeUID </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_PersonalizeUID </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -645,13 +677,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ae2c486b939d2cd97ef53f121279a4364" name="ae2c486b939d2cd97ef53f121279a4364"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2c486b939d2cd97ef53f121279a4364">&#9670;&nbsp;</a></span>Mf_Classic_Read_Block()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2c486b939d2cd97ef53f121279a4364">&#9670;&#160;</a></span>Mf_Classic_Read_Block()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Read_Block </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Read_Block </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -717,13 +749,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a2ac525120085e8dfd9f5ae41ff79b2ec" name="a2ac525120085e8dfd9f5ae41ff79b2ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ac525120085e8dfd9f5ae41ff79b2ec">&#9670;&nbsp;</a></span>Mf_Classic_Read_Sector()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac525120085e8dfd9f5ae41ff79b2ec">&#9670;&#160;</a></span>Mf_Classic_Read_Sector()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Read_Sector </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Read_Sector </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -789,13 +821,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a5dc2eed175b2898aab3c2a23f9f91a69" name="a5dc2eed175b2898aab3c2a23f9f91a69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dc2eed175b2898aab3c2a23f9f91a69">&#9670;&nbsp;</a></span>Mf_Classic_Read_Value()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc2eed175b2898aab3c2a23f9f91a69">&#9670;&#160;</a></span>Mf_Classic_Read_Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Read_Value </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Read_Value </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -861,13 +893,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="af6bdf82067a1a7288cd43bf24b5e072b" name="af6bdf82067a1a7288cd43bf24b5e072b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6bdf82067a1a7288cd43bf24b5e072b">&#9670;&nbsp;</a></span>Mf_Classic_Restore_Value()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6bdf82067a1a7288cd43bf24b5e072b">&#9670;&#160;</a></span>Mf_Classic_Restore_Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Restore_Value </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Restore_Value </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -933,13 +965,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ab2e7f476afca5b677d4e330df2bc0c76" name="ab2e7f476afca5b677d4e330df2bc0c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2e7f476afca5b677d4e330df2bc0c76">&#9670;&nbsp;</a></span>Mf_Classic_UpdadeAccessBlock()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e7f476afca5b677d4e330df2bc0c76">&#9670;&#160;</a></span>Mf_Classic_UpdadeAccessBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_UpdadeAccessBlock </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_UpdadeAccessBlock </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -1040,13 +1072,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a370d9020a75874ebacbda9635c72209a" name="a370d9020a75874ebacbda9635c72209a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a370d9020a75874ebacbda9635c72209a">&#9670;&nbsp;</a></span>Mf_Classic_Write_Block()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a370d9020a75874ebacbda9635c72209a">&#9670;&#160;</a></span>Mf_Classic_Write_Block()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Write_Block </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Write_Block </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -1112,13 +1144,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ad4d87f6c953f23f583f7c40c69bd2b32" name="ad4d87f6c953f23f583f7c40c69bd2b32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d87f6c953f23f583f7c40c69bd2b32">&#9670;&nbsp;</a></span>Mf_Classic_Write_Sector()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d87f6c953f23f583f7c40c69bd2b32">&#9670;&#160;</a></span>Mf_Classic_Write_Sector()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Write_Sector </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Write_Sector </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -1184,13 +1216,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="a0d9b6753cad40b1d641a948971914f10" name="a0d9b6753cad40b1d641a948971914f10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d9b6753cad40b1d641a948971914f10">&#9670;&nbsp;</a></span>Mf_Classic_Write_Value()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9b6753cad40b1d641a948971914f10">&#9670;&#160;</a></span>Mf_Classic_Write_Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Write_Value </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> Mf_Classic_Write_Value </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -1256,9 +1288,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_3f45b78a281ff7342088d1a157e24ab8.html">Extension</a></li><li class="navelem"><a class="el" href="dir_12c870651b2a4d1981c209dec21d4b5a.html">Mf_Classic</a></li><li class="navelem"><a class="el" href="_sw___mf___classic_8h.html">Sw_Mf_Classic.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
 </body>
 </html>

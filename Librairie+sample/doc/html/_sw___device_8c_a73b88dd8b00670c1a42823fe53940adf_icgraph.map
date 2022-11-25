@@ -1,7 +1,0 @@
-<map id="LCD" name="LCD">
-<area shape="rect" id="node1" title="Fonction permettant de generer le CRC A." alt="" coords="225,81,272,108"/>
-<area shape="rect" id="node2" href="$_cmd___auto_reader_8c.html#a8e1fc2dd44be685aa7de80c0606c988a" title="???" alt="" coords="10,5,173,32"/>
-<area shape="rect" id="node3" href="$_cmd___auto_reader_8c.html#a90478355552840760f8214d68bf1c3bf" title="???" alt="" coords="5,56,177,83"/>
-<area shape="rect" id="node4" href="$_cmd___auto_reader_8c.html#a8fdd732d7c51fb50d9e9c5ad20056dca" title="???" alt="" coords="5,107,177,133"/>
-<area shape="rect" id="node5" href="$_cmd___auto_reader_8c.html#a562a67863737d16bcf464fdd3bde8aad" title="???" alt="" coords="5,157,177,184"/>
-</map>

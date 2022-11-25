@@ -1,14 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ODALID Extension Education: Référence du fichier source/Extension/ISO14443A-3/Sw_ISO14443A-3.h</title>
+<title>ODALID Education Carte MIFARE: Référence du fichier source/Extension/ISO14443A-3/Sw_ISO14443A-3.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -19,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Odalid_Logo_120x60.jpg"/></td>
   <td id="projectalign">
-   <div id="projectname">ODALID Extension Education<span id="projectnumber">&#160;v0.2</span>
+   <div id="projectname">ODALID Education Carte MIFARE<span id="projectnumber">&#160;v0.4</span>
    </div>
   </td>
  </tr>
@@ -27,29 +34,68 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Généré par Doxygen 1.9.4 -->
+<!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',false,false,'search.php','Recherche');
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
 });
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_3f45b78a281ff7342088d1a157e24ab8.html">Extension</a></li><li class="navelem"><a class="el" href="dir_5f71bd4f647187718ab448e1b4413f17.html">ISO14443A-3</a></li>  </ul>
-</div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_sw___i_s_o14443_a-3_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
 <div class="header">
   <div class="summary">
 <a href="#func-members">Fonctions</a>  </div>
   <div class="headertitle"><div class="title">Référence du fichier Sw_ISO14443A-3.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="_librairie_8h_source.html">Librairie.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;Librairie.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="_type_defs_8h_source.html">TypeDefs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_hardware_8h_source.html">Hardware.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -57,19 +103,10 @@ Graphe des dépendances par inclusion de Sw_ISO14443A-3.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_sw___i_s_o14443_a-3_8h__incl.png" border="0" usemap="#asource_2_extension_2_i_s_o14443_a-3_2_sw___i_s_o14443_a-3_8h" alt=""/></div>
 <map name="asource_2_extension_2_i_s_o14443_a-3_2_sw___i_s_o14443_a-3_8h" id="asource_2_extension_2_i_s_o14443_a-3_2_sw___i_s_o14443_a-3_8h">
-<area shape="rect" title=" " alt="" coords="30,5,214,47"/>
-<area shape="rect" href="_librairie_8h.html" title=" " alt="" coords="5,95,84,121"/>
-<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="79,169,165,196"/>
-<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="160,95,247,121"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
-<div class="dyncontent">
-<div class="center"><img src="_sw___i_s_o14443_a-3_8h__dep__incl.png" border="0" usemap="#asource_2_extension_2_i_s_o14443_a-3_2_sw___i_s_o14443_a-3_8hdep" alt=""/></div>
-<map name="asource_2_extension_2_i_s_o14443_a-3_2_sw___i_s_o14443_a-3_8hdep" id="asource_2_extension_2_i_s_o14443_a-3_2_sw___i_s_o14443_a-3_8hdep">
-<area shape="rect" title=" " alt="" coords="5,5,189,47"/>
-<area shape="rect" href="_sw___i_s_o14443_a-3_8c.html" title=" " alt="" coords="5,95,189,136"/>
+<area shape="rect" title=" " alt="" coords="30,5,214,45"/>
+<area shape="rect" title=" " alt="" coords="5,93,84,119"/>
+<area shape="rect" href="_type_defs_8h.html" title=" " alt="" coords="119,167,205,192"/>
+<area shape="rect" href="_hardware_8h.html" title=" " alt="" coords="160,93,247,119"/>
 </map>
 </div>
 </div>
@@ -77,14 +114,14 @@ Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a7483320ae89f50da5f5b3c80cc9b5c2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___i_s_o14443_a-3_8h.html#a7483320ae89f50da5f5b3c80cc9b5c2a">ISO14443_3_A_PollCard</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *atq, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *sak, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *uid, <a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> *uid_len)</td></tr>
+<tr class="memitem:a7483320ae89f50da5f5b3c80cc9b5c2a"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___i_s_o14443_a-3_8h.html#a7483320ae89f50da5f5b3c80cc9b5c2a">ISO14443_3_A_PollCard</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *atq, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *sak, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *uid, <a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> *uid_len)</td></tr>
 <tr class="memdesc:a7483320ae89f50da5f5b3c80cc9b5c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction de prise de contact ISO14443-3A  <a href="_sw___i_s_o14443_a-3_8h.html#a7483320ae89f50da5f5b3c80cc9b5c2a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a7483320ae89f50da5f5b3c80cc9b5c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac294caa1ebcc1607edb018f8e6da97b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___i_s_o14443_a-3_8h.html#ac294caa1ebcc1607edb018f8e6da97b1">ISO14443_3_A_PollCardWU</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *atq, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *sak, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *uid, <a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> *uid_len)</td></tr>
-<tr class="memdesc:ac294caa1ebcc1607edb018f8e6da97b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction de prise de contact ISO14443-3A pour reveillé la carte  <a href="_sw___i_s_o14443_a-3_8h.html#ac294caa1ebcc1607edb018f8e6da97b1">Plus de détails...</a><br /></td></tr>
+<tr class="memitem:ac294caa1ebcc1607edb018f8e6da97b1"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___i_s_o14443_a-3_8h.html#ac294caa1ebcc1607edb018f8e6da97b1">ISO14443_3_A_PollCardWU</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *atq, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *sak, <a class="el" href="group___type.html#gaba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *uid, <a class="el" href="group___type.html#ga273cf69d639a59973b6019625df33e30">uint16_t</a> *uid_len)</td></tr>
+<tr class="memdesc:ac294caa1ebcc1607edb018f8e6da97b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction de prise de contact ISO14443-3A pour reveiller la carte  <a href="_sw___i_s_o14443_a-3_8h.html#ac294caa1ebcc1607edb018f8e6da97b1">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ac294caa1ebcc1607edb018f8e6da97b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a331f89d183eeb53c6292af893da76a84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___i_s_o14443_a-3_8h.html#a331f89d183eeb53c6292af893da76a84">ISO14443_3_A_Halt</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName)</td></tr>
-<tr class="memdesc:a331f89d183eeb53c6292af893da76a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">???  <a href="_sw___i_s_o14443_a-3_8h.html#a331f89d183eeb53c6292af893da76a84">Plus de détails...</a><br /></td></tr>
+<tr class="memitem:a331f89d183eeb53c6292af893da76a84"><td class="memItemLeft" align="right" valign="top">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sw___i_s_o14443_a-3_8h.html#a331f89d183eeb53c6292af893da76a84">ISO14443_3_A_Halt</a> (<a class="el" href="struct_reader_name.html">ReaderName</a> *pName)</td></tr>
+<tr class="memdesc:a331f89d183eeb53c6292af893da76a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">fonction de prise de mise en sommeil de la carte  <a href="_sw___i_s_o14443_a-3_8h.html#a331f89d183eeb53c6292af893da76a84">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a331f89d183eeb53c6292af893da76a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
@@ -93,13 +130,13 @@ Fonctions</h2></td></tr>
 <dl class="section date"><dt>Date</dt><dd>18 Novembre 2021 </dd></dl>
 </div><h2 class="groupheader">Documentation des fonctions</h2>
 <a id="a331f89d183eeb53c6292af893da76a84" name="a331f89d183eeb53c6292af893da76a84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a331f89d183eeb53c6292af893da76a84">&#9670;&nbsp;</a></span>ISO14443_3_A_Halt()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a331f89d183eeb53c6292af893da76a84">&#9670;&#160;</a></span>ISO14443_3_A_Halt()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ISO14443_3_A_Halt </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ISO14443_3_A_Halt </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em></td><td>)</td>
@@ -108,7 +145,7 @@ Fonctions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>??? </p>
+<p>fonction de prise de mise en sommeil de la carte </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
 <dl class="retval"><dt>Valeurs retournées</dt><dd>
   <table class="retval">
@@ -116,17 +153,23 @@ Fonctions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pName</td><td>[In] Information sur le lecteur. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <a id="a7483320ae89f50da5f5b3c80cc9b5c2a" name="a7483320ae89f50da5f5b3c80cc9b5c2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7483320ae89f50da5f5b3c80cc9b5c2a">&#9670;&nbsp;</a></span>ISO14443_3_A_PollCard()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7483320ae89f50da5f5b3c80cc9b5c2a">&#9670;&#160;</a></span>ISO14443_3_A_PollCard()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ISO14443_3_A_PollCard </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ISO14443_3_A_PollCard </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -185,13 +228,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 <a id="ac294caa1ebcc1607edb018f8e6da97b1" name="ac294caa1ebcc1607edb018f8e6da97b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac294caa1ebcc1607edb018f8e6da97b1">&#9670;&nbsp;</a></span>ISO14443_3_A_PollCardWU()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac294caa1ebcc1607edb018f8e6da97b1">&#9670;&#160;</a></span>ISO14443_3_A_PollCardWU()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_librairie_8h.html#a4436220ef8bad34dfc9563954662d9c0">ODALID_LIB</a> <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ISO14443_3_A_PollCardWU </td>
+          <td class="memname">ODALID_LIB <a class="el" href="group___type.html#gaa343fa3b3d06292b959ffdd4c4703b06">int16_t</a> ISO14443_3_A_PollCardWU </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_reader_name.html">ReaderName</a> *&#160;</td>
           <td class="paramname"><em>pName</em>, </td>
@@ -228,7 +271,7 @@ Fonctions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>fonction de prise de contact ISO14443-3A pour reveillé la carte </p>
+<p>fonction de prise de contact ISO14443-3A pour reveiller la carte </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Status code </dd></dl>
 <dl class="retval"><dt>Valeurs retournées</dt><dd>
   <table class="retval">
@@ -250,9 +293,13 @@ Fonctions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Généré par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_3f45b78a281ff7342088d1a157e24ab8.html">Extension</a></li><li class="navelem"><a class="el" href="dir_5f71bd4f647187718ab448e1b4413f17.html">ISO14443A-3</a></li><li class="navelem"><a class="el" href="_sw___i_s_o14443_a-3_8h.html">Sw_ISO14443A-3.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
 </body>
 </html>
