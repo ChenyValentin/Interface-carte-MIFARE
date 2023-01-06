@@ -14,7 +14,6 @@ class window : public QWidget
 public:
     window(QWidget *parent = nullptr);
     ~window();
-    void displayUnits(uint32_t UnitsNumber);
 
 private slots:
     void on_exitButton_clicked();
@@ -22,6 +21,12 @@ private slots:
     void on_connectButton_clicked();
 
     void on_ReadBtn_clicked();
+
+    void on_WriteBtn_clicked();
+
+    void on_SellBtn_clicked();
+
+    void on_LoadBtn_clicked();
 
 private:
     Ui::window *ui;

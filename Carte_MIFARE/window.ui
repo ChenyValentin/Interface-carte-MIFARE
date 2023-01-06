@@ -153,7 +153,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="ReadBtn">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -166,7 +166,7 @@
      <string>Lire</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="WriteBtn">
     <property name="geometry">
      <rect>
       <x>160</x>
@@ -261,7 +261,7 @@
      <string>Nombre d'unités à incrémenter</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="SellBtn">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -274,7 +274,7 @@
      <string>Payer</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="LoadBtn">
     <property name="geometry">
      <rect>
       <x>250</x>
